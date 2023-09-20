@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="inputs">
+      <div class="input day">
+        <p class="title">day</p>
+        <input type="text" placeholder="DD" class="days">
+        <p class="error invalid-input">Must be a valid date</p>
+        <p class="error invalid-day">Must be a valid day</p>
+        <p class="error no-input">This field is required</p>
+      </div>
+      <div class="input month">
+        <p class="title">month</p>
+        <input type="text" placeholder="MM" class="months">
+        <p class="error invalid-month">Must be a valid month</p>
+        <p class="error no-input">This field is required</p>
+      </div>
+      <div class="input year">
+        <p class="title">year</p>
+        <input type="text" placeholder="YYYY" class="years">
+        <p class="error invalid-year">Must be in the past</p>
+        <p class="error no-input">This field is required</p>
+      </div>
+      <div class="icon">
+        <img src="./assets/images/icon-arrow.svg" alt="">
+      </div>
+    </div>
+    <div class="result">
+      <p><span>-- </span>years</p>
+      <p><span>-- </span>months</p>
+      <p><span>-- </span>days</p>
+    </div>
+  </div>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Seif Sameh</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
